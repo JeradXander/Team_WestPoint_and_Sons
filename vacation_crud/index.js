@@ -36,6 +36,7 @@ appServer.get('/testifcanbeanything', (requestFromUser,responseFromServer) => {
     //this works to send
     responseFromServer.send(databaseToImport);
 
+    console.log('Jerad\'s Test');
     
     //sendfile test from current local directory this will be different for everyone
    // responseFromServer.sendFile(__dirname + '/index.html');
